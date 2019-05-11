@@ -1,0 +1,250 @@
+*{		margin:0px;
+   font-family: "Times New Roman", Times, serif;
+   word-wrap: break-word;
+   
+}
+
+.nav1, .nav2{
+	background-color: #558f9d;
+	background-image: linear-gradient(to right, rgb(85,143,157),rgb(102,154,166),rgb(85,143,157));
+}
+
+.nav1, a{
+	text-decoration: none;
+	color: #124356;
+}
+
+.nav1 a:hover{
+    color: #d35050;
+}
+.info{
+	color: #124356;
+    float: right;	
+    padding-right: 30px;
+}
+.nav1{
+	z-index: 1;
+	width: 100%;
+	padding-top: 15px;
+	padding-left: 15px;
+	position: fixed;
+	color: #26647d;
+}
+.nav1 hr{
+	border: 0.7px solid #26647d;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: 30px;
+
+}
+
+.nav2 h1{
+	color: #e5e0cc;
+}
+.nav2{
+     padding: 10px;
+     position: relative;	
+     top: 50px;
+
+}
+ .nav2 a:not(#product){
+	text-decoration: none;
+	color: #124356;
+}
+#product{
+	color: #124356;	
+	text-decoration: none;
+} 
+
+.table{ padding-left: 15px;
+		text-align: left;
+		width:16.6%; 
+		border-left: 2px solid #629caa;}
+
+.table p{color: #e5e0cc;}
+
+#description{
+	color: #124356;
+}
+
+
+.section1{
+	background-color: #f7f1d7;
+	border-top: 2px solid black;
+	padding-top: 50px;
+	border-bottom: 2px solid black;
+	color: #333333;
+    position: relative;
+    width: 100%;
+    top: 51px;
+    padding-bottom: 30px;
+
+
+}
+#title{
+	font-size: 60px;
+	color: #333333;
+
+}
+.section11{
+	width:100%;
+	height:350px;
+	display: flex;
+	margin-top: -40px;
+}
+.section11a{
+	margin-top: 23px;
+	margin-left: 20px;
+	margin-right: 125px;
+	width:500px;	
+	height: 300px;	
+}
+.section11a a{
+	color: #cf6d50;
+	background-color: #f1e6b8;
+	padding: 10px 20px;
+}
+.section11a p:nth-child(2) {
+	line-height: 27px;
+}
+.section11b{
+    margin-top: 23px;
+    margin-left: 200px;
+	float: right;
+	width:500px;
+	height: 300px;
+	padding-right: 20px;
+	
+}
+
+.section11b img{
+	border:2px solid #a7a7a7;
+	padding:2px;
+}
+/*.section22{
+	display: flex;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.section22a{
+    margin-right: 191px;
+    padding: 5px;*/
+}
+.section22{
+	position: absolute;
+}
+.section22 div:first-child{
+	margin-left:20px;
+}
+.section22a {
+	display: inline-block;
+	width:300px;
+	margin-left:200px;
+	
+}
+
+.section22a img{
+	border:2px solid #a7a7a7;
+	padding:2px;
+	margin:1px;
+}
+
+#title1{
+	text-align: center;
+}
+#hrcontact{
+	margin: 0px 100px 0px 100px;
+}
+
+#container1{	
+	text-align: left;
+    border-radius: 5px;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+ }
+
+input[type=submit] {
+    background-color: gray;
+    color: white;
+    padding: 12px 20px;
+    border: 1.5px dashed purple;
+    border-radius: 6px;
+    cursor: pointer;
+}
+input[type=text], input[type=email], input[type=password], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box; 
+    -o-box-sizing:border-box; 
+    -ms-box-sizing:border-box; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}#container2	{	
+	text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+ }
+#rightdiv{
+	float: right;
+	margin-right: 47px;
+}
+#leftdiv{
+	float: left;
+	margin-left: 47px;
+}	
+.lista{
+	list-style-type: square;
+}
+
+.leftp{  text-align: left;
+        float: left;
+        padding-left: 15px;
+
+         }
+.rightp{ text-align: right;
+        float: right;
+        padding-right: 15px;
+        
+         }
+.about-wrapper{
+	background-image: linear-gradient(to right, rgb(255, 255, 204), rgb(255, 181, 102));
+	margin: -20px;
+	padding: 20px;
+}
+.contact-wrapper{
+	background-image: radial-gradient(closest-side at 70% 50%, rgb(191, 128, 255), rgb(161, 196, 196), rgb(239, 245, 245));
+	margin: -20px;
+	padding: 20px;
+}
+
+.section33{
+	padding-top: 25px;
+	background-color: #eae6d6;
+
+}
+.section33 h1{
+	
+	font-weight: lighter;
+
+}
+
+.section33 div:first-child{
+	margin-left:20px;
+}
+
+
+.section33a {
+	display: inline-block;
+	width:300px;
+	margin-left:200px;
+	text-align: justify;
+	
