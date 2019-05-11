@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html manifest="manifest.appcache">
     <head>
         <title>Home</title>
-		     <meta charset="UTF-8">
+        <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
@@ -27,8 +28,7 @@
                     
                     <td class="table"> <h3><a href="index.html">Home</a></h3>
                     <p>Welcome to the best place for technology news and much more.</p></td>
-					
-					   
+                    
 					<td class="table"> <h3><a href="brands.html">Brands</a></h3>
                     <p>Phone finder, the ultimate resource for 5G handset information.</p></td>
 
@@ -38,3 +38,135 @@
 
                 <td class="table"> <h3><a href="reviews.html">Reviews</a></h3>
                     <p>Thinking of bying a product? Take a look at our reviews for a better purchase. </p></td>
+
+
+                <td class="table"> <h3><a href="about.html">About</a></h3>
+                    <p>Who we are, what we do and what we plan on doing in the future.</p></td>
+                    </tr>
+                  </table>
+
+        </div>
+        </header> 
+        <section>
+            <div class="section1">
+    
+                
+                <div class="section11">
+
+                    <div class="section11a">
+
+                        <p id="title"><em>The new generation of smartphones...</em></p>
+                        <p>If you're looking for a new mobile phone, then you've come to the right place.
+                        We're the first for smartphones and range the latest mobile releases from brands like Samsung, Apple, Huawei and Nokia. You'll find the very best products of technology. </p><br>
+                        <a href="reviews.html"><em> Go to reviews &#8811;</em></a>
+                    
+                    </div>
+
+                    <div class="section11b">
+                        <img name="slide" src="images/img1.jpg" width="500" height="300" alt="Foto e teknologjise">
+                       
+                    </div>
+            
+                </div>
+                <div class="section22">
+                    <div class="section22a">
+                        <img src="images/bestphone.jpg" width="300px" height="150px" alt="elefont me te mire">
+                    </div>
+                    <div class="section22a">
+                        <img src="images/fold.jfif" width="300px" height="150px" alt="Galaxy Fold">
+                    </div>
+                    <div class="section22a">
+                         <img src="images/lenovo.jpg" width="300px" height="150px" alt="Lenovoe fleksibil">
+                    </div>
+        </div>
+        </div><br><br><br>
+        </section>
+         <div class="section33">
+                    <div class="section33a">
+                        <h1>APPLE</h1>
+                        <hr>
+                         <figure>
+                            <img src="images/apple.png" width="60" height="60"  alt="Iphone news" align="left">
+                            <figcaption> Discover the innovative world of <u><b>Apple</b></u> and shop everything iPhone, iPad, Apple Watch, Mac, and 
+                            <a href="news.html#iphone" target="_blank"> Apple TV &#8811;</a></figcaption>
+                        </figure>
+
+
+                    </div>
+                    <div class="section33a">
+                        <h1>SAMSUNG</h1>
+                        <hr>
+                         <figure>
+                            <img src="images/samsung1.png" width="60" height="60"  alt="Samsung" align="left">
+                            <figcaption> Discover the latest in electronic & smart appliance technology with  <u><b>Samsung.</b></u> Find the next big thing from tablets & smartphones to 
+                            <a href="news.html#samsung" target="_blank"> laptops & tvs &#8811;</a></figcaption>
+                        </figure>
+                    </div>
+                    <div class="section33a">
+                         <h1>GOOGLE</h1>
+                         <hr>
+                          <figure>
+                            <img src="images/pixel.png" width="60" height="60"  alt="Microsoft" align="left">
+                            <figcaption>Night Sight on <u><b>Pixel 3</b></u> and <u><b>Pixel 3 XL</b></u> brings out all the best details and colors of your low light pics that you'll never want to use your 
+                            <a href="news.html#microsoft" target="_blank">flash again &#8811;</a></figcaption>
+                        </figure>
+                    </div>
+
+                    <hr style="margin:30px 20px;">	                  
+                    <div class="section33b">
+                       <h2>About Our Site</h2>
+                       <hr style="margin-top: 15px; margin-bottom: 15px;">
+                       <p>Over our long history, our social purpose and commitment to the community has remained the same; to deliver <a href="news.html">news about technology</a>and opportunities that matter to everyone.</p><br>
+                       <p>Our solution experts are here to answer your questions, help you troubleshoot issues, improve your experience & increase satisfaction with our solutions. We also help you choose the best product based on your needs!</p><br>
+                       <p>Find more about some products reviews <a href="reviews.html">here.</a><br></p>
+                    </div>
+
+
+                    <div class="section33c">
+                             <figure style="position: relative; bottom: 23px;">
+                            <img src="images/compare.jpg" width="60" height="60" alt="Foto" align="left">
+                            
+                            <figcaption>
+                                Not just reviews but also comparisons
+                            </figcaption><hr>
+                        </figure>
+                        <p>We made a detailed table that you can easily see the comparisons of different products also the ones that seem similar but they're definitely not.</p>
+                        <a  href="news.html">Continue Reading&#8811;</a>
+                </div>
+            </div>
+            <footer>
+                <div class="footerdiv"> 
+                	<p>Copyright &copy; 2019 5gArena - All Rights Reserved</p>
+                	<p style="float: right;">Made by AK, AZ & FM</p>
+                </div>
+            </footer>
+</body>
+<script type="text/javascript">
+    var i=0;
+    var images =[];
+    var time = 1000;
+
+    images[0] = "images/galaxys10.jpg";
+    images[1] = "images/iphonexs.jpg";
+    images[2] = "images/huaweip30.jpg";
+    images[3] = "images/huaweix.jpg";
+    function changeImage() {
+        document.slide.src = images[i];
+
+            if(i < images.length - 1){
+      // Add 1 to Index
+      i++; 
+    } else { 
+        // Reset Back To O
+        i = 0;
+    }
+
+    // Run function every x seconds
+    setTimeout("changeImage()", time);
+}
+
+// Run function when page loads
+window.onload=changeImage;
+    
+</script>
+</html>
