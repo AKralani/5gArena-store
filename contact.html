@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache">
+    <head>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+           <style type="text/css">
+          body{
+            background-image: url(images/tree.png), url(images/background9.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 200px 200px, 100% 100%;
+            background-position: 570px 300px, 0px 0px;
+          } 
+          /*Text Shadow: horizontal shadow, vertical shadow dhe blur radius*/
+          button{  
+            font-weight: bolder;
+            border-radius: 10px;
+              }
+          button:hover{
+            text-shadow: 2px 2px 5px #000000;  
+          }
+        </style>
+        <script>
+function validateForm() {
+  //Validimi i Emrit
+  var x = document.forms["contactform"]["firstname"].value;
+  if (!x.match(/^[a-zA-Z ]{2,30}$/)) {
+    alert("Name must be filled out correctly");
+    return false;
+  }
+  //Validimi i Mbiemrit
+  var x = document.forms["contactform"]["lastname"].value;
+  if (!x.match(/^[a-zA-Z ]{2,30}$/)) {
+    alert("Lastname must be filled out correctly");
+    return false;
+  }
+  //Validimi i Email
+    var x = document.forms["contactform"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+    alert("Not a valid e-mail address");
+    return false;
+  }
+  //Validimi i select - opsioneve
+       if (document.getElementById("subject").selectedIndex == 0) {
+       alert("A subject must be choosen");
+       return false;
+     }
+  //Validimi i Moshes - radio button
+    var age = document.getElementsByName('age');
+        var ageValue = false;
+        for(var i=0; i<age.length;i++){
+            if(age[i].checked == true){
+                ageValue = true;    
+            }
+        }
+        if(!ageValue){
+            alert("Age must be choosen");
+            return false;
+        }
+    //Validimi i pergjigjjes - checkbox
+        var answer = document.getElementsByName('answer');
+        var ansValue = false;
+        for(var i=0; i<answer.length;i++){
+            if(answer[i].checked == true){
+                ansValue = true;    
+            }
+        }
+        if(!ansValue){
+            alert("An answer must be choosen");
+            return false;
+        }
