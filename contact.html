@@ -73,3 +73,90 @@ function validateForm() {
             alert("An answer must be choosen");
             return false;
         }
+    //Validimi i mesazhit - textarea
+       if (document.getElementById("message").value == "" ) {
+       alert("Message must be filled out");
+       return false;
+        }
+          }
+    function validateLogin(){
+           //Validimi i Passwordit
+    var x = document.forms["loginform"]["pass"].value;
+    var r =document.forms["loginform"]["repass"].value;
+        if(!x.match(/^[a-zA-Z0-9]{8,}$/)){
+          alert("Password must be contain at least one number and one uppercase and lowercase letter, and at least 8 or more cahracters");
+          return false;
+        }
+        if(!r.match(/^[a-zA-Z0-9]{8,}$/)){
+          alert("Password must be contain at least one number and one uppercase and lowercase letter, and at least 8 or more cahracters");
+          return false;
+        }
+        if (!(x == r)) {
+        alert("Passwords are not the same, please try again");
+          return false;
+    }
+    }
+</script> 
+    </head> 
+    <body>  <header>
+            <div class="nav1">
+          <a href="index.html">Home</a> |
+      <a href="brands.html">Brands</a> |
+        <a href="news.html">News</a> |
+        <a href="reviews.html">Reviews</a> |
+        <a href="pricing.html">Pricing</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="about.html">About</a>
+        <p class="info">Tel: +383 49 000 000 | Mail: ak42549@ubt-uni.net, az41597@ubt-uni.net, fm41566@ubt-uni.net</p><hr>
+        </div>
+      <div class="nav2">
+      <table> <tr>
+                    
+                <td><h1>5gArena</h1>
+                <p id="description">Your best choice for technology</p></td>
+                        
+                    
+                    <td class="table"> <h3><a href="index.html">Home</a></h3>
+                    <p>Welcome to the best place for technology news and much more.</p></td>
+                    
+          <td class="table"> <h3><a href="brands.html">Brands</a></h3>
+                    <p>Phone finder, the ultimate resource for 5G handset information.</p></td>
+
+                <td class="table"> <h3><a id="product" href="news.html">News</a></h3>
+                    <p>Newest information about technology including videos and audios.</p></td>
+                    
+
+                <td class="table"> <h3><a href="reviews.html">Reviews</a></h3>
+                    <p>Thinking of bying a product? Take a look at our reviews for a better purchase. </p></td>
+
+
+                <td class="table"> <h3><a href="about.html">About</a></h3>
+                    <p>Who we are, what we do and what we plan on doing in the future.</p></td>
+                    </tr>
+                  </table>
+
+        </div>
+        </header> 
+        
+    <br><br><br><br>
+       <h1 id="title1">Contact</h1><br><hr id="hrcontact"> 
+<div id="container1" align="center">
+    <div class="contact-wrapper">
+       <form class="contactform" action="thankyou.html" name="contactform" onsubmit="return validateForm()">
+        
+           <label>Name:</label>
+           <input type="text" name="firstname" placeholder="Your name.." autofocus minlength="3">
+           <label>Last Name: </label>
+           <input type="text" name="lastname" placeholder="Your last name.." maxlength="20">
+          
+           <label>Email: </label>
+           <input type="email" name="email" placeholder="Email.." multiple autocomplete="off">
+           <label>Subject: </label>
+           <select id="subject" name="reason" >
+            <option value="hidden" selected disabled hidden>Choose here..</option>
+              <option value="reason1">I have problems with my phone</option>
+              <option value="reason2">I don't know how to use my TV</option>
+              <option value="reason3">I can't choose between Samsung and iPhone</option>
+              <option value="reason4">I can't find a product</option>
+              <option value="reason5">Other</option>
+           </select>
