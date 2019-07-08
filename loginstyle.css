@@ -1,0 +1,18 @@
+.login-form{position:relative; left:50px;}
+#username,#emri,#mbiemri,#password,#email{position: relative; left: 250px; top: 50px; width: 180px; height: 33px;}
+#reg{position: relative; left: 260px; top: 100px; }
+#notreg{position: relative; left: 240px; top: 90px; }
+#username,#emri,#mbiemri,#password ,#email, select {
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#create{position: relative; top: 110px;
+       left: 120px;}
+#log{position: relative;top:70px;left: 310px;  background-color: #555555; /* Gray */ border: none; color: white; padding: 5px 10px;text-decoration: none;
+		height:30px;}
+#error{position:relative; left:280px; top:35px;}
