@@ -1,0 +1,57 @@
+body{margin:0px;font-size:13px;font-family:"Century Gothic";color:#3F3F3F;background-color:#CCCCCC;}
+#header{background-image:url(images/top-bg.jpg); background-repeat:repeat-x; height:100px;padding-left:30px;padding-top:60px;}
+#login{position: relative;left: 480px; bottom: 70px; color: black;
+       font-size: 15px; font-weight: 900;}
+	   #buton_login{position: relative; left: 670px; top:-20px;
+        background-color: #555555; /* Gray */ border: none; color: white; padding: 10px 10px; text-align: center; text-decoration: none;
+        display: inline-block; font-size: 16px;}
+		
+		#shopping{position: relative; left: 865px;
+        background-color: #555555; /* Gray */ border: none; color: white; padding: 10px 10px; text-align: center; text-decoration: none;
+        display: inline-block; font-size: 16px;}
+.name{font-size:30px; font-family:"Century Gothic"; color:#ffffff; padding-left:20px; }
+.mySlides{width: 1091px;}
+.tag{font-size:16px;color:#B7CF1A; text-transform:uppercase; font-weight:bold; padding-left:22px;}
+#links-bg{height:49px; background-image:url(images/links-bg.gif); background-repeat:repeat-x;}
+.toplinks{width:160px; text-align:center; text-transform:uppercase; font-weight:bold;}
+.toplinks a{color:#ffffff; text-decoration:none;}
+.toplinks a:hover{color:#B7CF1A; text-decoration:none;}
+.sap{width:1px; color:#ffffff;}
+.catlinks{height:28px; line-height:28px; font-weight:bold; border-bottom:1px solid #cccccc; font-family:tahoma; font-size:11px;}
+.catlinks a{color:#ffffff; text-decoration:none; display:block; padding-left:20px; background-color:#969696;}
+.catlinks a:hover{color:#F66D05; text-decoration:none; background-color:#000000;}
+#tabela{
+	border-collapse: collapse;
+	border: 1px solid black;
+    border-bottom: 1px solid black;
+    vertical-align: bottom;}
+#tabela tr:hover {background-color: #f5f5f5;}
+.cat-head{font-family:tahoma; font-size:12px; font-weight:bold; color:#ffffff; height:35px; padding-left:12px; background-color:#F66D05;}
+.offer{color:#FC9419; font-family:tahoma; font-size:14px; font-weight:bold; height:30px; line-height:30px;}
+.butoni1 {
+        background-color: #555555; /* Gray */ border: none; color: white; padding: 5px 10px;text-decoration: none;
+		height:30px;
+         }
+.cartDelete{
+        background-color: #555555; /* Gray */ border: none; color: white; padding: 5px 10px;text-decoration: none;
+		height:30px;
+		float:right;
+         }
+#main{text-align:justify; padding-left:15px; padding-right:15px; padding-top:8px; padding-bottom:15px;}
+#price{border-bottom: 1px  solid #fff; border-left: 1px  solid #fff; border-right: 1px  solid #fff;}
+#price:hover { background-color: #fff; }
+#continue{background-color: #555555; /* Gray */ border: none; color: white; padding: 5px 10px;text-decoration: none;
+		height:30px; float:right;}
+.smal-txt{font-size:12px;}
+.main-head{font-family:tahoma; font-size:12px; font-weight:bold; color:#ffffff; height:35px; padding-left:12px; background-color:#B7CF1A; border-left:1px solid #ffffff;}
+.head2{font-family:tahoma; font-size:12px; font-weight:bold; color:#ffffff; height:35px; padding-left:12px; background-color:#969696; border-left:1px solid #ffffff;}
+.bottomlinks{width:110px; text-transform:uppercase; font-size:11px; font-weight:bold;text-align:center;}
+.bottomlinks a{text-decoration:none;color:#ffffff;}
+.bottomlinks a:hover{color:#B7CF1A;text-decoration:none;}
+.sap2{color:#ffffff;width:1px;}
+a{color:#FA6B02; text-decoration:none;}
+a:hover{color:#66A3FF; text-decoration:underline;}
+.contact{font-size:15px;font-family:arial;}
+.iphone{padding-top:0px;margin-top:-350px;}
+.samsung{padding-top:0px;margin-top:-350px;}
+.img{padding-top:50px;padding-left:20px;}
